@@ -1,0 +1,75 @@
+
+<!-- CSS Inline-->
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+
+svg .pumpkin {
+ fill: yellow;
+ stroke: orange;
+ stroke-width: 5;
+ }
+</style>
+
+<h1>Amazing Visualization Tool Cures All Ills</h1>
+<p>A new open-source tool designed for visualization of data turns out to have
+an unexpected, positive side effect: it heals any ailments of the viewer.
+Leading scientists report that the tool, called D3000, can cure even the
+following symptoms:</p>
+<ul>
+ <li>fevers</li>
+ <li>chills</li>
+ <li>general malaise</li>
+</ul>
+<p>It achieves this end with a patented, three-step process.</p>
+<ol>
+ <li>Load in data.</li>
+ <li>Generate a visual representation.</li>
+ <li>Activate magic healing function.</li>
+</ol>
+
+<!-- SVG-->
+<svg width="500" height="400">
+<rect x="0" y="0" width="100" height="50"/>
+<circle cx="350" cy="25" r="25"/>
+<ellipse cx="450" cy="25" rx="100" ry="25"/>
+
+<line x1="0" y1="200" x2="500" y2="300" stroke="black"/>
+<text x="250" y="300">Easy-peasy</text>
+<!-- Override CSS -->
+<text x="250" y="350" font-family="serif" font-size="25" fill="gray">Easy-peasy</text> 
+<!-- Stylin' -->
+<circle cx="25" cy="25" r="22"
+fill="yellow" stroke="orange" stroke-width="5"/>
+<circle cx="100" cy="25" r="22" class="pumpkin"/>
+</svg>
+
+
+<svg width="400" height="300">
+<!-- Ordering -->
+<rect x="0" y="0" width="30" height="30" fill="purple"/>
+<rect x="20" y="5" width="30" height="30" fill="blue"/>
+<rect x="40" y="10" width="30" height="30" fill="green"/>
+<rect x="60" y="15" width="30" height="30" fill="yellow"/>
+
+<!-- Fill and stroke transparency -->
+<circle cx="25" cy="25" r="20" fill="rgba(128, 0, 128, 1.0)"/>
+<circle cx="50" cy="25" r="20" fill="rgba(0, 0, 255, 0.75)"/>
+<circle cx="75" cy="25" r="20" fill="rgba(0, 255, 0, 0.5)"/>
+<circle cx="100" cy="25" r="20" fill="rgba(255, 255, 0, 0.25)"/>
+<circle cx="125" cy="25" r="20" fill="rgba(255, 0, 0, 0.1)"/>
+
+<circle cx="25" cy="25" r="20" fill="rgba(128, 0, 128, 0.75)"
+ stroke="rgba(0, 255, 0, 0.25)" stroke-width="10"/>
+<circle cx="75" cy="25" r="20" fill="rgba(0, 255, 0, 0.75)"
+ stroke="rgba(0, 0, 255, 0.25)" stroke-width="10"/>
+<circle cx="125" cy="25" r="20" fill="rgba(255, 255, 0, 0.75)"
+
+<circle cx="25" cy="25" r="20" fill="purple" stroke="green" stroke-width="10"
+ opacity="0.9"/>
+<circle cx="65" cy="25" r="20" fill="green" stroke="blue" stroke-width="10"
+ opacity="0.5"/>
+<circle cx="105" cy="25" r="20" fill="yellow" stroke="red" stroke-width="10"
+ opacity="0.1"/>
+</svg>
